@@ -422,6 +422,13 @@ a.about:hover, a.team:hover, a.forums:hover, a.services:hover {
     }
 }
 
+/*Adjust hero content font size for smaller screens*/
+@media only screen and (max-width: 480px) {
+    .hero-content {
+        font-size: 1.3rem;
+    }
+}
+
 /*Slightly adjust team details width for smaller screens*/
 @media only screen and (max-width: 768px) {
     .team-details {
